@@ -55,7 +55,7 @@ def make_arrays(list_of_numbers):
         measurements[f'memoryview(numpy)'].append(
             iterate_over_array(memoryview(np_array))
         )
-        measurements[f'memoryview(python)'].append(iterate_over_array(python_array))
+        measurements[f'memoryview(python)'].append(iterate_over_array(memoryview(python_array)))
         measurements[f'python'].append(iterate_over_array(python_array))
     return measurements
 
