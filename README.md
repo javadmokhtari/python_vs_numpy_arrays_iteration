@@ -1,1 +1,1 @@
-![Graph](/measurements.png)
+![Graph](/measurements_arrays.png)
